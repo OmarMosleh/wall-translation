@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Oswald:wght@200..700&display=swap");
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');:root {
   --iti-color: #bf272d;
 }
 * {
@@ -38,9 +37,11 @@ nav {
   width: 10rem;
 }
 p {
-  font-family: "Cairo", serif;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+    font-family: "Oswald", serif;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+
+  margin-bottom: 2.5rem;
 }
 h1 {
   color: var(--iti-color);
@@ -70,6 +71,6 @@ section {
     font-size: 14px;
   }
   .container {
-    width: 95%;
+    width: 85%;
   }
 }
