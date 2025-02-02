@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap'); 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');* {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -42,13 +41,14 @@ p {
 
   margin-bottom: 2.5rem;
 }
-h1 {
-  color: var(--iti-color);
-  font-size: 6rem;
-  font-family: "Aref Ruqaa", serif;
+h2 {
+  margin-top: 2rem;
+  color: #bf272d;
+  font-size: 2.5rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 2rem;
+  font-family: "Noto Kufi Arabic", serif;
 }
 .arabic{
   font-family: "Cairo", serif;
